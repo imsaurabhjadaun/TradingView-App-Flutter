@@ -9,7 +9,7 @@ extension ScreenSize on BuildContext {
 
 extension SizeByScreen on BuildContext {
   double get bodyHeight => height - (paddingTop + kToolbarHeight);
-  double get tradingViewWidgetHeight => height * 0.59;
+  double get tradingViewWidgetHeight => height * 0.55;
   double get quarterWidth => width * 0.25;
 }
 

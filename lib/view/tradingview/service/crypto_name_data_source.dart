@@ -27,7 +27,7 @@ new TradingView.widget({
   "width": "100%",
   "height": 1180,
   "symbol": "$name",
-  "interval": "D",
+  "interval": "S",
   "timezone": "Etc/UTC",
   "theme": "dark",
   "style": "1",
