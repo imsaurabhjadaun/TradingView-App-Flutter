@@ -21,7 +21,6 @@ class TradingView extends StatelessWidget {
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              const TradingviewTabbars(),
               TradingTabViews(crypto: crypto),
             ],
           ),
