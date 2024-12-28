@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:tradingview_app/core/component/iconbutton/appbar_back_icon.dart';
-import 'package:tradingview_app/core/component/iconbutton/appbar_star_icon.dart';
 import 'package:tradingview_app/core/component/iconbutton/apppbar_notification_icon.dart';
 import 'package:tradingview_app/core/component/text/label_small_text.dart';
 import 'package:tradingview_app/core/component/text/title_medium_text.dart';
@@ -26,7 +25,6 @@ class TradingAppBar extends StatelessWidget implements PreferredSizeWidget {
       ),
       actions: const [
         AppBarNotificationIconButton(),
-        AppBarStarIconButton(),
       ],
     );
   }

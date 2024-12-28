@@ -1,6 +1,6 @@
 class CryptoNameDataSource {
   static String binanceSourceEuro(String cryptoName) {
-    return 'BINANCE:${cryptoName}EUR';
+    return 'BINANCE:${cryptoName}USD';
   }
 
   static String cryptoNameAndSource(String name) {
@@ -27,7 +27,7 @@ new TradingView.widget({
   "width": "100%",
   "height": 1180,
   "symbol": "$name",
-  "interval": "D",
+  "interval": "R",
   "timezone": "Etc/UTC",
   "theme": "dark",
   "style": "1",
