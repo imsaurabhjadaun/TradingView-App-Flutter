@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 enum ProjectIcons {
-  star,
   notification,
   back,
 }
@@ -9,8 +8,6 @@ enum ProjectIcons {
 extension GetIconData on ProjectIcons {
   IconData get getIconData {
     switch (this) {
-      case ProjectIcons.star:
-        return Icons.star_rounded;
       case ProjectIcons.notification:
         return Icons.notification_add_outlined;
       case ProjectIcons.back:

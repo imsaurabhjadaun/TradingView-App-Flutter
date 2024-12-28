@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:tradingview_app/core/extension/context_extension.dart';
 import 'package:tradingview_app/view/_product/tabbar/trading_tab_views.dart';
 import 'package:tradingview_app/view/_product/tabbar/trading_tabbar_constants.dart';
-import 'package:tradingview_app/view/_product/tabbar/trading_view_tabbars.dart';
 import 'package:tradingview_app/view/_product/widget/appbar/tradingview_app_bar.dart';
 import 'package:tradingview_app/view/home/model/crypto.dart';
 
@@ -21,7 +20,6 @@ class TradingView extends StatelessWidget {
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              const TradingviewTabbars(),
               TradingTabViews(crypto: crypto),
             ],
           ),
