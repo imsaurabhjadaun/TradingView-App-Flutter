@@ -18,7 +18,6 @@ class _TradingViewWidgetHtmlState extends State<TradingViewWidgetHtml> {
 
   @override
   void initState() {
-    print('Crypto Name: ${widget.cryptoName}');
     super.initState();
 
     controller = WebViewController()
